@@ -1,0 +1,43 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-image: linear-gradient(rgba(63, 21, 1, 0.6), rgba(51, 0, 43, 0.6)),
+    url("../images/budapest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 130px 0;
+}
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1.5px;
+}
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+}
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+}
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: white;
+  text-decoration: none;
+  color: #272044;
+  padding: 16px 32px;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
