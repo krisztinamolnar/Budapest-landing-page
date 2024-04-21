@@ -142,8 +142,13 @@ footer a {
 .grid {
   grid-gap: 64px;
 }
-.img-responsive {
+.main-img-responsive {
   max-width: 100%;
+  display: block;
+}
+
+.img-responsive {
+  width: 100%;
   display: block;
 }
 .grid-2-columns {
@@ -159,6 +164,13 @@ footer a {
 .card {
   background-color: white;
   margin: 30px 0;
+}
+.card-header.grid {
+  grid-gap: 0;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 .card-body {
   padding: 30px;
@@ -205,5 +217,14 @@ footer a {
   }
   .grid-3-columns {
     grid-template-columns: 1fr;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
+  }
+  .instagram-embed {
+    margin: 30px 0;
   }
 }
