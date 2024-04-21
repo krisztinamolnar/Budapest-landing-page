@@ -165,7 +165,7 @@ footer a {
 }
 .card {
   background-color: white;
-  margin: 30px 0;
+  margin: 30px 5px;
 }
 .card-header.grid {
   grid-gap: 0;
