@@ -13,6 +13,7 @@ section {
   padding: 100px;
 }
 section.secondary {
+  background: #f8f8f8;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -73,7 +74,7 @@ main h2 {
 main h3 {
   font-weight: 700;
   font-size: 40px;
-  line-height: 50px;
+  line-height: 1.5;
   color: var(--main-color);
   margin: 0;
 }
@@ -140,6 +141,7 @@ footer a {
   text-align: center;
 }
 .grid {
+  display: grid;
   grid-gap: 64px;
 }
 .main-img-responsive {
@@ -171,6 +173,9 @@ footer a {
 .embed {
   width: 100%;
   aspect-ratio: 1/1;
+}
+.instagram-embeds {
+  margin: 30px 0;
 }
 .card-body {
   padding: 30px;
