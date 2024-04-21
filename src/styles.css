@@ -1,6 +1,6 @@
 :root {
-  --main-color: #272044;
-  --btn-color: #462cb3;
+  --main-color: #442038;
+  --btn-color: #b32c64;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -16,7 +16,7 @@ section.secondary {
   background: #f8f8f8;
 }
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(19, 0, 10, 0.6), rgba(19, 0, 10, 0.6)),
     url("../images/budapest1.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,10 +102,7 @@ main p {
 }
 footer {
   color: white;
-  background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
-    ),
+  background-image: linear-gradient(rgba(19, 0, 10, 0.9), rgba(19, 0, 10, 0.9)),
     url("../images/riverview1.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -165,7 +162,7 @@ footer a {
 }
 .card {
   background-color: white;
-  margin: 30px px;
+  margin: 30px 5px;
 }
 .card-header.grid {
   grid-gap: 0;
